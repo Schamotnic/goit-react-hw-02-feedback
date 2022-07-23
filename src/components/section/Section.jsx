@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
  
 import{H2} from "./SectionStyle"
 
-const Section =  (title,children) => {
+const Section =  ({title,children}) => {
 return <div>
    <H2>{title}</H2>
    {children} 
@@ -13,7 +13,7 @@ return <div>
 
  Section.propTypes ={
    Section: PropTypes.string.isRequired,
-   children:PropTypes.node
+   children:PropTypes.node.isRequired
 
  }
 
