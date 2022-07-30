@@ -33,7 +33,7 @@ class App extends  Component {
            
            
        }));
-       // console.log([name])
+       console.log([name])
        
    };
    
