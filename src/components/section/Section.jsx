@@ -12,7 +12,7 @@ return <div>
  }
 
  Section.propTypes ={
-   section: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
    children:PropTypes.node.isRequired
 
  }
